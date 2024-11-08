@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legend Card</title>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f5f5f5;
+    }
+
+    .card {
+        width: 300px;
+        padding: 20px;
+        background-color: #ff5757;
+        border-radius: 15px;
+        color: white;
+        text-align: left;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .stats {
+        margin: 15px 0;
+    }
+
+    .stats p {
+        margin: 8px 0;
+        font-size: 18px;
+    }
+
+    .achievements {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .achievements div {
+        text-align: center;
+    }
+
+    .achievements div p {
+        font-size: 16px;
+    }
+
+    .character {
+        width: 100px;
+        height: auto;
+        margin-top: 15px;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Wraith</h1>
+    <p>Most Played Legend</p>
+
+    <div class="stats">
+        <p>Games Played: <strong>87</strong></p>
+        <p>Kills: <strong>152</strong></p>
+        <p>Assists: <strong>54</strong></p>
+    </div>
+
+    <img src="cartoon.png" class="character">
+
+    <div class="achievements">
+        <div>
+            <p>37</p>
+            <p>Achievements Completed</p>
+        </div>
+        <div>
+            <p>864</p>
+            <p>Ranked Points</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
